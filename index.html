@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Noctivagant</title>
+
+<!-- Site stylesheet is handled by /scripts/stylehandle. DO NOT FUCK WITH THIS -->
+<!-- BASE STYLE TO BE SET FIRST. -->
+
+<link rel="stylesheet" href="CSS/spring/topper.css">
+<link rel="stylesheet" id="style">
+<link rel="stylesheet" href="CSS/base.css">
+<script type="text/javascript" src="JS/stylehandle.js"></script>
+
+<link rel="icon" type="image/png" href="/images/favicon/favicon-48x48.png" sizes="48x48"/>
+<link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg"/>
+<link rel="shortcut icon" href="/images/favicon/favicon.ico"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png"/>
+<meta name="apple-mobile-web-app-title" content="Noctivagant"/>
+<link rel="manifest" href="/images/favicon/site.webmanifest"/>
+
+<meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+  <!-- Top elements of the page -->
+  <div class="banner"></div>
+  <div id="headNav"></div>
+
+  <!-- Left sidebar and main elements of the page -->
+  <div class="container">
+
+      <div id="leftSide"></div>
+
+      <div class="main">
+        <h1>Noctivagant</h1>
+        <div class="sub"><p>noc &middot; tiv &middot; a &middot; gant, adj.: going about in the night, night-wandering</p></div>
+        <marquee><p>STRIATON CITY: sunny... NACRENE CITY: cloudy... CASTELIA CITY: cloudy... NIMBASA CITY: cloudy... DRIFTVEIL CITY: drizzling... MISTRALTON CITY: raining... ICCIRUS CITY: raining... OPELUCID CITY: cloudy...</p></marquee>
+      
+        <center><img src="images/ribbons stuff/ribheadbob.gif" width="75" height="75" alt="Pixel art of Ribbons bobbing their head up and down."></center>
+      
+        <p>Hello, I'm Atlas (or Vega, or Jupi)! I'm a queer artist making all sorts of things on the internet. Welcome to Noctivagant. Thanks for stopping by! I specialize in music and digital art, but I also stream, create websites like this one, and have a pretty strong passion for botany. I've also got a bunch of creative things going on that you can check out on my <a href="/self/socials">socials</a> and <a href="/self/projects">projects</a> page. I encourage you to explore and I hope you have a good stay here!</p>
+      
+        <center><img src="/images/pixels/self.gif" alt="Pixel art of DOOMVEGA bobbing their head up and down."></center>
+      
+        <p>More about me— among all the art I make, I work retail and used to teach music. One half of my family is Native, the other is Irish, and one day I'd like to learn about my ancestors and reconnect with them somehow. I love animals, even the ones people find really creepy. I even love bees, whom I am afraid of (I'm working on overcoming that). I'd like to have a homestead someday. I make all my music out of my bedroom, which is half bedroom, half studio— literally. I can play all of Portal in forty-five minutes.</p>
+      
+        <center><img src="/images/pixels/samurott.gif" alt="Pixel art of a Samurott bobbing up and down."></center>
+      
+        <p>Before I was knowledgeable with HTML, I was very unsure of my ability to create a functioning and organized website. The early days of the internet were absolutely beautiful and I didn't know if I could ever live up to that. However, I'm proud of my work here, and I'm really happy with the space I'm cultivating. If you don't have a website yet, please make one. There's no rules, no limits, and it's nothing like social media at all. You can become the webmaster of your dreams!</p>
+      
+        <center><p>!!! art under construction :) !!!</p></center>
+        <center><p>site last updated: <span id="lastupdate"></span></p></center>
+        <center><p>you are visitor #<span id="hitcount"></span></p></center>
+        
+        <h3>Status Cafe ✨🦊</h3>
+        <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=doomvega" defer></script>
+        <br>
+        <center><a href="https://status.cafe/users/doomvega"><img src="https://status.cafe/users/doomvega/badge.png" alt="Status Cafe Profile"/></a></center>
+        
+      </div>
+
+  </div>
+  
+  <!-- Footer -->
+  <div id="endFoot"></div>
+
+  <!-- This script handles hit count and last updated stuff. -->
+  <script>
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+          var site_data = JSON.parse(this.responseText);
+          var num_arr = site_data.info.views.toString().split("");
+          var num_str = "";
+          for (i = 0; i < num_arr.length; i++) {
+              num_str += num_arr[i];
+              if ( (num_arr.length-1 - i) % 3 == 0 && (num_arr.length-1 - i) != 0 ) {num_str += ",";}
+              var date_str = site_data.info.last_updated;
+              var date_obj = new Date(site_data.info.last_updated);
+              document.getElementById("lastupdate").innerHTML = (date_obj.getMonth()+1) + "-" + date_obj.getDate() + "-" + date_obj.getFullYear();
+          }
+          document.getElementById("hitcount").innerHTML = num_str;
+      }
+  };
+  xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=noctivagant", true);
+  xhttp.send();
+  </script>
+
+  <!-- This script is the Ko-Fi button. This needs to be at the bottom of the page for whatever reason. -->
+  <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+  <script src="/JS/kofibutton.js"></script>
+
+  <!-- These scripts are "static" elements of the page. -->
+  <script type="text/javascript" src="JS/headNavStatic.js"></script>
+  <script type="text/javascript" src="JS/leftSideStatic.js"></script>
+  <script type="text/javascript" src="JS/endFootStatic.js"></script>
+
+</body>
+
+</html>

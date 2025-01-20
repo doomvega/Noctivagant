@@ -1,0 +1,38 @@
+/* In the root are variables that define color, shapes, all sorts of things.
+You can tinker safely with variables, and it makes things easier to handle
+when you start playing with different screen sizes through media queries.
+Very convenient to have this right at the top. */
+
+:root {
+  --para-color: #fff9d8;
+  --head-color: #fff9d8;
+  --back-color: pink;
+  --accent-color: #fff9d8;
+  --body-color: #f4d1e1;
+  --left-color: #e8b2e8;
+  --bar-color: #90c5e3;
+  --table-color: #e8b2e8;
+  --table-color2: #f4d1e1;
+  --head-img: url("/images/seasonal/spring/spring2024.webp");
+  --back-img: url("/images/seasonal/trans/trans.webp");
+  --round-corner: 25px;
+  --round-corner2: 10px;
+  --shadow: 0px 0px 15px #58427c50;
+  --back-size: 25%;
+  --text-shadow: 2px 2px 4px #684f9175;
+  --scroll-color: #fff9d8 #f4d1e1;
+  --scroll-color2: #fff9d8 #f4d1e1;
+  --border: 3px dotted var(--bar-color);
+}
+
+@font-face {
+  font-family: TruthAndIdeals;
+  src: url("/fonts/TruthAndIdealsNormal.woff2");
+  font-display: swap;
+}
+
+/* This is the cursor. */
+
+/* Start https://www.cursors-4u.com */
+* {cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym473.cur), auto !important;}
+/* End https://www.cursors-4u.com */

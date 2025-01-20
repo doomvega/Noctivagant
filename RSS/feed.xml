@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>DOOMVEGA's Poasts</title>
+  <link>https://noctivagant.net/</link>
+  <description>A place for DOOMVEGA's Poasts to live!</description>
+
+  <!--
+  <item>
+	<title>TITLE OF POAST</title>
+	<link>https://noctivagant.net/blog#X</link>
+	<description>BLURB ABOUT THE POAST</description>
+  </item>
+  -->
+  
+  <item>
+	<title>Pruning & Changing</title>
+	<link>https://noctivagant.net/blog#6</link>
+	<description>The key to having a healthy garden is a process called "deadheading", which is where you identify parts of a plant that are dying and gently remove them.</description>
+  </item>
+  
+  <item>
+	<title>Saying Goodbye to two More Sites</title>
+	<link>https://noctivagant.net/blog#5</link>
+	<description>Lately, I've been trying to practice privacy.</description>
+  </item>
+  
+  <item>
+	<title>A Long Day of Webdev</title>
+	<link>https://noctivagant.net/blog#4</link>
+	<description>I didn't think I'd be doing this much work on Noctivagant today!</description>
+  </item>
+  
+  <item>
+	<title><i>Sept. 28th, 2024:</i> Post Bread.</title>
+	<link>https://noctivagant.net/blog#3</link>
+	<description>I have made my final "real" post on Cohost.</description>
+  </item>
+  
+  <item>
+	<title>Lorem Ipsum... BLAST!!!</title>
+	<link>https://noctivagant.net/blog#2</link>
+	<description>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</description>
+  </item>
+  
+  <item>
+	<title>Test Poast!</title>
+	<link>https://noctivagant.net/blog#1</link>
+	<description>Can you update and/or remove poasts after they've been updated? Let's find out!</description>
+  </item>
+  
+</channel>
+</rss>

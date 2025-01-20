@@ -1,0 +1,65 @@
+/* In the root are variables that define color, shapes, all sorts of things.
+You can tinker safely with variables, and it makes things easier to handle
+when you start playing with different screen sizes through media queries.
+Very convenient to have this right at the top. */
+
+:root {
+  /* Base page styling. */
+  --para-color: #a9ecfa;
+  --head-color: #3d63bd;
+  --back-color: lightblue;
+  --accent-color: #a9ecfa;
+  --body-color: #5bace6;
+  --left-color: #457dcc;
+  --bar-color: #3d63bd;
+  --table-color: #3d63bd;
+  --table-color2: #457dcc;
+  --head-img: url("/images/seasonal/winter/ribbonsxmas.webp");
+  --back-img: url("/images/seasonal/winter/blizzard.webp");
+  --round-corner: 25px;
+  --round-corner2: 10px;
+  --shadow: 0px 0px 15px #314880;
+  --textShadow: 2px 2px 5px #31488090;
+  --back-size: 50%;
+  --back-size-mobile: 100%;
+  --scroll-color: #a9ecfa #5bace6;
+  --scroll-color2: #a9ecfa #3d63bd;
+  --border: 3px dotted var(--bar-color);
+  --bulletEmoji: "❅";
+  
+  /* HR Element */
+  --hrStyle: dotted 2px var(--head-color);
+  
+  /* Blog-specific vars. */
+  --boxColor1: #5bace6;
+  --boxColor2: #5bace6;
+  --boxColor3: #5bace6;
+  --boxColor4: #5bace6;
+  --boxColor5: #5bace6;
+  --boxColor6: #5bace6;
+  --boxColor7: #5bace6;
+    
+  --boxShadow: 0px 0px 10px;
+  --boxRadius: 10px;
+  --dateFlair: "❄️";
+  
+  /* Button-specific vars */
+    --buttonWidth: 125px;
+    --buttonHeight: 20px;
+
+  /* Font Vars */
+    --fontFamily1: TruthAndIdeals;
+    --fontFamily2: TruthAndIdeals;
+}
+
+@font-face {
+  font-family: TruthAndIdeals;
+  src: url("/fonts/TruthAndIdealsNormal.woff2");
+  font-display: swap;
+}
+
+/* This is the cursor. */
+
+/* Start https://www.cursors-4u.com */
+* {cursor: url(https://cur.cursors-4u.net/nature/nat-4/nat394.cur), auto !important;}
+/* End https://www.cursors-4u.com */

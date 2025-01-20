@@ -1,0 +1,119 @@
+h1, h2, h3, h4, h5, h6 {
+  color: var(--head-color);
+  font-family: var(--fontFamily1);
+}
+
+a {
+  color: var(--accent-color);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: dotted 1px var(--head-color);;
+}
+
+html {
+  scrollbar-color: var(--scroll-color2);
+}
+
+body {
+    text-shadow: var(--textShadow);
+    font-family: var(--fontFamily2);
+    background-image: var(--back-img);
+    background-size: var(--back-size);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+    color: var(--para-color);
+}
+
+.container {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top {
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-radius: var(--boxRadius);
+    text-align: center;
+    vertical-align: middle;
+    line-height: auto;
+    background-color: var(--bar-color);
+}
+
+.top h1 {
+  color: var(--para-color);
+}
+
+.navButton {
+    background-color: var(--left-color);
+    color: var(--para-color);
+    width: var(--buttonWidth);
+    height: var(--buttonHeight);
+    text-align: center;
+    vertical-align: middle;
+    line-height: var(--buttonHeight);
+    padding: 10px;
+    border-radius: var(--round-corner2);
+    margin: 5px;
+    box-shadow: var(--shadow);
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.navButton:hover {
+    background-color: var(--body-color);
+}
+
+.navButton a {
+  text-decoration: none;
+  display: block;
+  font-weight: normal;
+}
+
+.poast {
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-radius: var(--boxRadius);
+}
+
+.poast h1, h2, h3, h4, h5, h6 {
+    border-bottom: 2px solid var(--head-color);
+}
+
+.footer {
+    text-align: center;
+    font-style: italic;
+}
+
+.footer p::before {
+    font-style: normal;
+    content: var(--dateFlair) " ";
+  }
+
+.footer p::after {
+    font-style: normal;
+    content: " " var(--dateFlair);
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+  }
