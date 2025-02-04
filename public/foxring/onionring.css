@@ -13,15 +13,13 @@
 #vulpesites table {
   all: initial;
   display: block;
-  width: 25%;
+  width: 50%;
   background-color: #ffdec3;
   border: 3px dotted rgb(255, 164, 79);
   margin: 0 auto;
-}
-
-#vulpesites table a, p {
   color: black;
 }
+
 
 #vulpesites table tr td {
   padding: 15px;
