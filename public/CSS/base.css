@@ -207,7 +207,6 @@ body {
     color: var(--para-color);
     height: var(--buttonHeight);
     text-align: center;
-    vertical-align: middle;
     line-height: var(--buttonHeight);
     padding: 10px;
     border-radius: var(--round-corner2);
@@ -221,10 +220,6 @@ body {
 
 .navButton:hover {
     filter: brightness(150%);
-}
-
-.navButton a {
-  
 }
 
 #leftSide {
