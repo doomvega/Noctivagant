@@ -6,18 +6,18 @@
 /* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
 
 #vulpesites {
-  margin: 0 auto;
-  padding: 15px; /* creates some space around the widget */
+  margin: auto;
+  padding: 15px;
 }
 
 #vulpesites table {
-  background-color: #ffffff75; /* makes the background pure white */
-  border: 3px dotted blue;
-  margin: auto; /* centers the widget */
+  background-color: #ffffff25;
+  border: 3px dotted orange;
+  margin: auto;
 }
 
 #vulpesites table tr td {
-  padding: 15px; /* creates some space between the links and text inside the widget */
+  padding: 15px;
 }
 
 #vulpesites .webring-prev {
