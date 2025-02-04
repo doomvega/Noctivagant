@@ -8,6 +8,7 @@
 #vulpesites {
   margin: 0 auto;
   padding: 15px;
+  height: 100px;
 }
 
 #vulpesites table {
@@ -18,7 +19,6 @@
 }
 
 #vulpesites table tr td {
-  height: 100px;
   padding: 15px;
 }
 
