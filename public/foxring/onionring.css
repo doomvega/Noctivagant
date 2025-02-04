@@ -11,8 +11,9 @@
 }
 
 #vulpesites table {
-  background-color: #ffffff; /* makes the background pure white */
-  margin: 0 auto; /* centers the widget */
+  background-color: #ffffff50; /* makes the background pure white */
+  border: 3px dotted blue;
+  margin: auto; /* centers the widget */
 }
 
 #vulpesites table tr td {
@@ -24,7 +25,7 @@
 }
 
 #vulpesites .webring-info {
-   text-align:center;
+  text-align:center;
 }
 
 #vulpesites .webring-next {
