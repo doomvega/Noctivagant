@@ -5,6 +5,12 @@
 /* === ONIONRING.CSS === */
 /* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
 
+:root {
+  textColor: #b2460f;
+  backColor: #ffdec3;
+  borderWidget:  3px dotted #ffa44f;
+}
+
 @font-face {
   font-family: TruthAndIdeals;
   src: url("https://noctivagant.net/fonts/TruthAndIdealsNormal.woff2");
@@ -21,20 +27,20 @@
   all: initial;
   display: table;
   width: 500px;
-  background-color: #ffdec3;
-  border: 3px dotted rgb(255, 164, 79);
+  background-color: var(--backColor);
+  border: var(--borderWidget);
   margin: 0 auto;
   border-radius: 5px;
 }
 
 #vulpesites table tr td {
   padding: 15px;
-  color: black;
+  color: var(--textColor);
   font-family: TruthAndIdeals;
 }
 
 #vulpesites table tr td a {
-  color: black;
+  color: var(--textColor);
   font-family: TruthAndIdeals;
 }
 
