@@ -8,11 +8,11 @@
 #vulpesites {
   margin: 0 auto;
   padding: 15px;
-  height: 100px;
 }
 
 #vulpesites table {
   all: initial;
+  display: block;
   background-color: #ffdec3;
   border: 3px dotted rgb(255, 164, 79);
   margin: 0 auto;
