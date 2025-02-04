@@ -12,8 +12,9 @@
 
 #vulpesites table {
   all: initial;
-  background-color: #ffffff25;
-  border: 3px dotted orange;
+  height: auto;
+  background-color: #ffdec3;
+  border: 3px dotted rgb(255, 164, 79);
   margin: auto;
 }
 
