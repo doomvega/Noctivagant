@@ -10,9 +10,13 @@
   padding: 15px;
 }
 
+#vulpesites p {
+  color: black;
+}
+
 #vulpesites table {
   all: initial;
-  height: auto;
+  height: 100px;
   background-color: #ffdec3;
   border: 3px dotted rgb(255, 164, 79);
   margin: auto;
