@@ -8,26 +8,32 @@
 
   <!--
   <item>
-	<title>TITLE OF POAST</title>
+	<title><i>Jan. 1st, 2025:</i> TITLE OF POAST</title>
 	<link>https://noctivagant.net/blog#X</link>
 	<description>BLURB ABOUT THE POAST</description>
   </item>
   -->
   
   <item>
-	<title>Pruning & Changing</title>
+	<title><i>Feb. 4th, 2025:</i> Remote Editing and the Simplicity of Webmastery</title>
+	<link>https://noctivagant.net/blog#7</link>
+	<description>Recently, I've expanded my efforts to move away from social media.</description>
+  </item>
+
+  <item>
+	<title><i>Jan. 18th, 2025:</i> Pruning and Changing</title>
 	<link>https://noctivagant.net/blog#6</link>
 	<description>The key to having a healthy garden is a process called "deadheading", which is where you identify parts of a plant that are dying and gently remove them.</description>
   </item>
   
   <item>
-	<title>Saying Goodbye to two More Sites</title>
+	<title><i>Nov. 12th, 2024:</i> Saying Goodbye to two More Sites</title>
 	<link>https://noctivagant.net/blog#5</link>
 	<description>Lately, I've been trying to practice privacy.</description>
   </item>
   
   <item>
-	<title>A Long Day of Webdev</title>
+	<title><i>Oct. 16th, 2024:</i> A Long Day of Webdev</title>
 	<link>https://noctivagant.net/blog#4</link>
 	<description>I didn't think I'd be doing this much work on Noctivagant today!</description>
   </item>
