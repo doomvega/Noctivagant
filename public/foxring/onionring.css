@@ -6,9 +6,9 @@
 /* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
 
 :root {
-  textColor: #b2460f;
-  backColor: #ffdec3;
-  borderWidget:  3px dotted #ffa44f;
+  --textColor: #b2460f;
+  --backColor: #ffdec3;
+  --borderWidget:  3px dotted #ffa44f;
 }
 
 @font-face {
