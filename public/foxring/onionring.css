@@ -15,7 +15,6 @@
   margin: 0 auto;
   padding: 15px;
   color: black;
-  font-family: TruthAndIdeals;
 }
 
 #vulpesites table {
@@ -31,10 +30,12 @@
 #vulpesites table tr td {
   padding: 15px;
   color: black;
+  font-family: TruthAndIdeals;
 }
 
 #vulpesites table tr td a {
   color: black;
+  font-family: TruthAndIdeals;
 }
 
 #vulpesites .webring-prev {
