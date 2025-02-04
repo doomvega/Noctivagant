@@ -109,7 +109,7 @@ body {
     content: " " var(--dateFlair);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
   
     [id^="kofi-widget-overlay"] {
       display: none;
