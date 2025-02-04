@@ -8,6 +8,7 @@
 #vulpesites {
   margin: 0 auto;
   padding: 15px;
+  color: black;
 }
 
 #vulpesites table {
@@ -17,7 +18,7 @@
   background-color: #ffdec3;
   border: 3px dotted rgb(255, 164, 79);
   margin: 0 auto;
-  color: black;
+  border-radius: 5px;
 }
 
 
