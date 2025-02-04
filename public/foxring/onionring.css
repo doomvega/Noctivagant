@@ -14,7 +14,7 @@
 #vulpesites table {
   all: initial;
   display: table;
-  width: 200px;
+  width: 500px;
   background-color: #ffdec3;
   border: 3px dotted rgb(255, 164, 79);
   margin: 0 auto;
