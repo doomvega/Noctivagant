@@ -61,3 +61,11 @@
 #vulpesites .webring-links {
   font-size:small;
 }
+
+@media only screen and (max-width: 500px) {
+
+  #vulpesites table {
+    width: 75%;
+  }
+
+}
