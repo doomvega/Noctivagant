@@ -38,7 +38,7 @@ body {
     flex-direction: column;
 }
 
-#headNav {
+#headNav2 {
     width: auto;
     height: auto;
     padding-left: 10px;
@@ -53,7 +53,7 @@ body {
     background-color: var(--bar-color);
 }
 
-#headNav h1 {
+#headNav2 h1 {
   color: var(--para-color);
 }
 
