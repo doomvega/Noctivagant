@@ -53,7 +53,7 @@ body {
     background-color: var(--bar-color);
 }
 
-.top h1 {
+#headNav h1 {
   color: var(--para-color);
 }
 
@@ -75,12 +75,6 @@ body {
 
 .navButton:hover {
   filter: brightness(150%);
-}
-
-.navButton a {
-  text-decoration: none;
-  display: block;
-  font-weight: normal;
 }
 
 .poast {
