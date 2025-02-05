@@ -62,7 +62,7 @@
   font-size:small;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 
   #vulpesites table {
     width: 75%;
