@@ -38,7 +38,7 @@ body {
     flex-direction: column;
 }
 
-.top {
+#headNav {
     width: auto;
     height: auto;
     padding-left: 10px;
@@ -46,7 +46,9 @@ body {
     margin: 5px;
     border-radius: var(--boxRadius);
     text-align: center;
-    vertical-align: middle;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(2 * 75px), 1fr));
+    justify-content: space-between;
     line-height: auto;
     background-color: var(--bar-color);
 }
@@ -56,23 +58,23 @@ body {
 }
 
 .navButton {
-    background-color: var(--left-color);
-    color: var(--para-color);
-    width: var(--buttonWidth);
-    height: var(--buttonHeight);
-    text-align: center;
-    vertical-align: middle;
-    line-height: var(--buttonHeight);
-    padding: 10px;
-    border-radius: var(--round-corner2);
-    margin: 5px;
-    box-shadow: var(--shadow);
-    display: inline-block;
-    flex-grow: 1;
+  background-color: var(--left-color);
+  color: var(--para-color);
+  height: var(--buttonHeight);
+  text-align: center;
+  line-height: var(--buttonHeight);
+  padding: 10px;
+  border-radius: var(--round-corner2);
+  margin: 5px;
+  box-shadow: var(--shadow);
+  display: inline-block;
+  text-decoration: none;
+  display: block;
+  font-weight: normal;
 }
 
 .navButton:hover {
-    background-color: var(--body-color);
+  filter: brightness(150%);
 }
 
 .navButton a {
