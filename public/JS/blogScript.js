@@ -41,6 +41,9 @@ let postsArray = [
 //[ "posts/2020-11-10-My-Third-Post-Example.html", "" ],
 //[ "posts/2020-11-10-My-Second-Post-Example.html", "" ],
 //[ "posts/2020-11-10-Post-Template.html", "", "exampleTag1", "exampleTag2" ],
+["posts/2025-02-09-More-Than-a-Game-Balatro.html", "", "atlas", "mtag", "balatro"],
+["posts/2025-02-04-Remote-Editing-and-the-Simplicity-of-Webmastery.html", "", "atlas", "webdev"],
+["posts/2025-01-18-Pruning-and-Changing.html", "", "atlas", "webdev"],
 ["posts/2024-10-16-A-Long-Day-of-Webdev.html", "", "atlas", "webdev"],
 ["posts/2024-09-28-Post-Bread.html", "", "atlas", "cohost", "tf2"]
 ];
