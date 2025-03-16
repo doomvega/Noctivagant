@@ -33,7 +33,7 @@ Very convenient to have this right at the top. */
   /* Blog-specific vars. */
   --boxShadow: 0px 0px 10px;
   --boxRadius: 10px;
-  --dateFlair: "❄️";
+  --dateFlair: " ❄️ ";
   
   /* Button-specific vars */
     --buttonWidth: 125px;
