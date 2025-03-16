@@ -64,6 +64,20 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--head-color);
 }
 
+h1 {
+  color: var(--head-color);
+  border-bottom: double 3px var(--head-color);
+  text-align: center;
+}
+
+h2 {
+  border-bottom: dashed 1px var(--head-color);
+}
+
+h3 {
+  border-bottom: dotted 1px var(--head-color);
+}
+
 a {
   color: var(--accent-color);
   font-weight: bold;
