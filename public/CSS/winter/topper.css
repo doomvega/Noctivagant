@@ -34,6 +34,8 @@ Very convenient to have this right at the top. */
   --boxShadow: 0px 0px 10px;
   --boxRadius: 10px;
   --dateFlair: " ❄️ ";
+  --bottomRadius: 0px 0px 10px 10px;
+  --topRadius: 10px 10px 0px 0px;
   
   /* Button-specific vars */
     --buttonWidth: 125px;
