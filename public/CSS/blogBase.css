@@ -51,9 +51,7 @@ img {
     max-width: 60%;
     height: auto;
   }
-}
-
-@media only screen and (max-width: 999px) {
+  
   [id^="kofi-widget-overlay"] {
     display: none;
   }
@@ -110,6 +108,7 @@ a {
 #header {
   background-color: var(--bar-color);
   padding: 0 5%;
+  border-radius: var(--round-corner2);
 }
 
 #header ul {
