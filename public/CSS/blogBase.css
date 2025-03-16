@@ -1,6 +1,6 @@
 body {
   background-color: var(--back-color);
-  background-image: var(--back-image);
+  background-image: var(--back-img);
   background-size: var(--back-size);
 	background-position: top;
   font-size: 18px;
