@@ -31,14 +31,6 @@ Very convenient to have this right at the top. */
   --hrStyle: dotted 2px var(--head-color);
   
   /* Blog-specific vars. */
-  --boxColor1: #5bace6;
-  --boxColor2: #5bace6;
-  --boxColor3: #5bace6;
-  --boxColor4: #5bace6;
-  --boxColor5: #5bace6;
-  --boxColor6: #5bace6;
-  --boxColor7: #5bace6;
-    
   --boxShadow: 0px 0px 10px;
   --boxRadius: 10px;
   --dateFlair: "❄️";

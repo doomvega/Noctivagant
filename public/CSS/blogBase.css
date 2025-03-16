@@ -9,6 +9,10 @@ body {
   text-shadow: var(--textShadow);
 }
 
+.specialFlair {
+  content: var(--dateFlair);
+}
+
 p {
   line-height: auto;
 }

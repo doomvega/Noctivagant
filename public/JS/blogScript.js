@@ -150,7 +150,7 @@ function formatPostLink(i,arrayToFormat) {
     }
   }
   if (  postDateFormat.test ( arrayToFormat[i][0].slice( 6,17 ) ) ) {
-    return '<li><a href="' + relativePath + '/'+ arrayToFormat[i][0] +'">' + arrayToFormat[i][0].slice(6,16) + " \u00BB " + postTitle_i + '</a></li>';
+    return '<li><a href="' + relativePath + '/'+ arrayToFormat[i][0] +'">' + arrayToFormat[i][0].slice(6,16) + '<div class="specialFlair"></div>' + postTitle_i + '</a></li>';
   } else {
     return '<li><a href="../' + relativePath + '/'+ arrayToFormat[i][0] +'">' + postTitle_i + '</a></li>';
   }
