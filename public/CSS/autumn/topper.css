@@ -30,18 +30,12 @@ Very convenient to have this right at the top. */
   /* HR Element */
   --hrStyle: dotted 2px var(--head-color);
   
-  /* Blog-specific vars. */
-  --boxColor1: #4e4439;
-  --boxColor2: #4e4439;
-  --boxColor3: #4e4439;
-  --boxColor4: #4e4439;
-  --boxColor5: #4e4439;
-  --boxColor6: #4e4439;
-  --boxColor7: #4e4439;
-    
+  /* Blog-specific vars. */ 
   --boxShadow: 0px 0px 10px;
   --boxRadius: 10px;
   --dateFlair: "🍂";
+  --bottomRadius: 0px 0px 10px 10px;
+  --topRadius: 10px 10px 0px 0px;
   
   /* Button-specific vars */
     --buttonWidth: 125px;
