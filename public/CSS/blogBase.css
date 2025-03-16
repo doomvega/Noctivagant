@@ -10,7 +10,15 @@ body {
 }
 
 .specialFlair:before {
+  content: " ";
+}
+
+.specialFlair {
   content: var(--dateFlair);
+}
+
+.specialFlair:after {
+  content: " ";
 }
 
 p {
