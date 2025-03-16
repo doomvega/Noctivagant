@@ -9,7 +9,7 @@ body {
   text-shadow: var(--textShadow);
 }
 
-.specialFlair {
+.specialFlair:before {
   content: var(--dateFlair);
 }
 
