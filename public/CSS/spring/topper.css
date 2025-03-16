@@ -31,17 +31,11 @@ Very convenient to have this right at the top. */
   --hrStyle: dotted 2px var(--head-color);
   
   /* Blog-specific vars. */
-  --boxColor1: #d25a7a;
-  --boxColor2: #d25a7a;
-  --boxColor3: #d25a7a;
-  --boxColor4: #d25a7a;
-  --boxColor5: #d25a7a;
-  --boxColor6: #d25a7a;
-  --boxColor7: #d25a7a;
-    
   --boxShadow: 0px 0px 10px;
   --boxRadius: 10px;
   --dateFlair: "🌸";
+  --bottomRadius: 0px 0px 10px 10px;
+  --topRadius: 10px 10px 0px 0px;
   
   /* Button-specific vars */
     --buttonWidth: 125px;
