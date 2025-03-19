@@ -126,6 +126,11 @@ ul li::before {
   margin: 0;
 }
 
+#header ul li::before {
+  content: none;
+  padding-right: auto;
+}
+
 #header li {
   font-size: 1.2em;
   display: inline-block;
