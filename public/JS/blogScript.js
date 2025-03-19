@@ -66,7 +66,7 @@ if ( url.includes("posts/") || url.includes("tags/") ) {
 //Write the Header HTML, a series of list items containing links.
 let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">Home</a></li>' + 
 '<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
-'<li><a href="' + relativePath + '/tags.html">Tags</a></li> </ul>' +
+'<li><a href="' + relativePath + '/tags.html">Tags</a></li>' +
 '<li><a href="https://noctivagant.net/">Back to Main Site</a></li> </ul>';
 
 //Write the Footer HTML, which has information about the blog.
