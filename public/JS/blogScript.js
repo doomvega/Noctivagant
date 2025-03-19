@@ -64,7 +64,7 @@ if ( url.includes("posts/") || url.includes("tags/") ) {
 }
 
 //Write the Header HTML, a series of list items containing links.
-let headerHTML = '<center><span class="specialFlair"></span><ul> <li><a href="' + relativePath + '/index.html">Home</a></li>' + 
+let headerHTML = '<center><span class="specialFlair"><ul> <li><a href="' + relativePath + '/index.html">Home</a></li>' + 
 '<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
 '<li><a href="' + relativePath + '/tags.html">Tags</a></li>' +
 '<li><a href="https://noctivagant.net/">Back to Main Site</a></li> </ul><span class="specialFlair"></span></center>';
