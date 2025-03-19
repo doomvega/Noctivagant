@@ -88,6 +88,15 @@ a {
   text-decoration: underline;
 }
 
+ul {
+  list-style-type: none;
+}
+
+ul li::before {
+  content: var(--bulletEmoji);
+  padding-right: 8px;
+}
+
 /*#CONTAINER is the rectangle that contains everything but the background!*/
 #container {
   margin: 3em auto;
