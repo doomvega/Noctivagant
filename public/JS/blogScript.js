@@ -241,9 +241,9 @@ function getTagList () {
 
 //new function to turn tag array into list of links
 function formatTagList (tagArray) {
-	let tagListHTML = '<h3>Tags:</h3><ul class="no-bullets">';
+	let tagListHTML = '<h3>Tags:</h3><ul>';
 	for (i=0;i<tagArray.length;i++) {
-  		tagListHTML += '<li><a href="/tags/' + tagArray[i] + '">' + tagArray[i] + '</a></li>';
+  		tagListHTML += '<li><a href="blog/tags/' + tagArray[i] + '">' + tagArray[i] + '</a></li>';
 	}
 	tagListHTML += "</ul>";
 	return tagListHTML;
