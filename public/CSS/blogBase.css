@@ -53,7 +53,7 @@ img {
   }
 }
 
-@media not screen and (min-width: 600px){
+@media not screen and (min-width: 600px){ /* WHY THE FUCK IS THIS "NOT". WHY THE FUCK IS IT "NOT" RIGHT HERE. */
   [id^="kofi-widget-overlay"] {
     display: none;
   }
