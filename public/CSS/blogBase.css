@@ -122,7 +122,7 @@ ul li::before {
   border-radius: var(--topRadius);
 }
 
-#headLinks {
+#header p {
   font-size: 1.2em;
   display: inline-block;
   margin-right: 1.5em;
@@ -130,11 +130,11 @@ ul li::before {
   margin-top: 0.2em;
 }
 
-#headLinks::before {
+#header p::before {
   content: var(--dateFlair);
 }
 
-#headLinks::after {
+#header p::after {
   content: var(--dateFlair);
 }
 
