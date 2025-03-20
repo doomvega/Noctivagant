@@ -64,10 +64,10 @@ if ( url.includes("posts/") || url.includes("tags/") ) {
 }
 
 //Write the Header HTML, a series of list items containing links.
-let headerHTML = '<p><center><a href="' + relativePath + '/index.html">Home</a><span>&#8195;</span>' + 
+let headerHTML = '<center><p><a href="' + relativePath + '/index.html">Home</a><span>&#8195;</span>' + 
 '<a href="' + relativePath + '/archive.html">Archive</a><span>&#8195;</span>' +
 '<a href="' + relativePath + '/tags.html">Tags</a><span>&#8195;</span>' +
-'<a href="https://noctivagant.net/">Back to Main Site</a></center></p>';
+'<a href="https://noctivagant.net/">Back to Main Site</a></p></center>';
 
 //Write the Footer HTML, which has information about the blog.
 let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.net/'>Zonelets</a>, and hosted by <a href='https://neocities.org/'>Neocities!</a></p>";
