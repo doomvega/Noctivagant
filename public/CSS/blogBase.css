@@ -128,6 +128,7 @@ ul li::before {
   margin-right: 1.5em;
   margin-bottom: 0.2em;
   margin-top: 0.2em;
+  margin-inline: auto;
 }
 
 #header p::before {
