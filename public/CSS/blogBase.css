@@ -122,17 +122,16 @@ ul li::before {
   border-radius: var(--topRadius);
 }
 
-#header ul {
-  list-style-type: none;
+#headLinks {
   padding: 0.5em 0;
   margin: 0;
 }
 
-#header ul::before {
+#headLinks::before {
   content: var(--dateFlair);
 }
 
-#header ul::after {
+#headLinks::after {
   content: var(--dateFlair);
 }
 
