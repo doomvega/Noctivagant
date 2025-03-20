@@ -126,6 +126,14 @@ ul li::before {
   margin: 0;
 }
 
+#header ul::before {
+  content: var(--dateFlair);
+}
+
+#header ul::after {
+  content: var(--dateFlair);
+}
+
 #header ul li::before {
   content: none;
   padding-right: auto;
