@@ -53,6 +53,12 @@ img {
   }
 }
 
+@media not screen and (min-width: 600px){
+  [id^="kofi-widget-overlay"] {
+    display: none;
+  }
+}
+
 .caption {
   margin-top: 0;
   font-size: 0.9em;
