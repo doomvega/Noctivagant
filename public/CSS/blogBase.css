@@ -123,8 +123,11 @@ ul li::before {
 }
 
 #headLinks {
-  padding: 0.5em 0;
-  margin: 0;
+  font-size: 1.2em;
+  display: inline-block;
+  margin-right: 1.5em;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
 }
 
 #headLinks::before {
@@ -135,26 +138,13 @@ ul li::before {
   content: var(--dateFlair);
 }
 
-#header ul li::before {
-  content: none;
-  padding-right: auto;
-}
-
-#header li {
-  font-size: 1.2em;
-  display: inline-block;
-  margin-right: 1.5em;
-  margin-bottom: 0.2em;
-  margin-top: 0.2em;
-}
-
-#header li a {
+#header a {
   color: var(--accent-color);
   font-weight: bold;
   background-color: inherit;
 }
 
-#header li a:hover {
+#header a:hover {
   text-decoration: underline;
 }
 
