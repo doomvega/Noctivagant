@@ -6,7 +6,7 @@ const leftSide = `
 <hr>
 <p>If you enjoy my site, please bookmark it. I also encourage you to create your own sites in order to share your passions with the world!</p>
 <hr>
-<center><a href="http://tamanotchi.world/2881c"><img src="http://tamanotchi.world/i/2881" alt="It's tamaNOTchi! Click to feed!"></a><a href="https://tamanotchi.world/5554c"><img src="https://tamanotchi.world/i/5554" alt="It's tamaNOTchi! Click to feed!"></a><a href="https://tamanotchi.world/3373c"><img src="https://tamanotchi.world/i/3373" alt="It's tamaNOTchi! Click to feed!"></a><a href="https://tamanotchi.world/21096c"><img src="https://tamanotchi.world/i/21096" alt="It's tamaNOTchi! Click to feed!"></a></center>
+<center><a href="http://tamanotchi.world/2881c"><img src="http://tamanotchi.world/i/2881" alt="It's tamaNOTchi! Click to feed!"></a><a href="https://tamanotchi.world/5554c"><img src="https://tamanotchi.world/i/5554" alt="It's tamaNOTchi! Click to feed!"></a><a href="https://tamanotchi.world/3373c"><img src="https://tamanotchi.world/i/3373" alt="It's tamaNOTchi! Click to feed!"></a><a href="https://tamanotchi.world/21096c"><img src="https://tamanotchi.world/i/21096" alt="It's tamaNOTchi! Click to feed!"></a><a href="https://tamanotchi.world/20873c"><img src="https://tamanotchi.world/i/20873" alt="It's tamaNOTchi! Click to feed!"></a><a href="https://tamanotchi.world/21100c"><img src="https://tamanotchi.world/i/21100" alt="It's tamaNOTchi! Click to feed!"></a></center>
 <p>Click here to feed my Tamanotchis! :)</p>
 ` ;
 
