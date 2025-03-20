@@ -51,10 +51,6 @@ img {
     max-width: 60%;
     height: auto;
   }
-
-  [id^="kofi-widget-overlay"] {
-    display: none;
-  }
 }
 
 .caption {
