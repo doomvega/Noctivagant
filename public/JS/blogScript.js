@@ -45,7 +45,8 @@ let postsArray = [
 [ "posts/2025-02-04-Remote-Editing-and-the-Simplicity-of-Webmastery.html", "", "atlas", "webdev", "archive" ],
 [ "posts/2025-01-18-Pruning-and-Changing.html", "", "atlas", "webdev", "archive" ],
 [ "posts/2024-10-16-A-Long-Day-of-Webdev.html", "", "atlas", "webdev", "archive" ],
-[ "posts/2024-09-28-Post-Bread.html", "", "atlas", "cohost", "tf2", "archive" ]
+[ "posts/2024-09-28-Post-Bread.html", "", "atlas", "cohost", "tf2", "archive" ],
+[ "posts/2020-11-10-Post-Template.html", "Post Template", "atlas" ]
 ];
 
 //-----------------------------
