@@ -1,5 +1,5 @@
 const leftSide = ` 
-<p>Atlas, Vega, or Jupi! Welcome to my website! This is where I gather and talk about the things I love.</p>
+<p>I'm Vega! Welcome to my website! This is where I gather and talk about the things I love.</p>
 <hr>
 <center><p id="blink" style="font-size: large;">🎨 HEY! ⭐</p></center>
 <p>If you like art made by human hands (or fox paws), check out my <a href="https://doomvega.art/">commissions website!</a> It means the world to me ❤️🦊</p>
