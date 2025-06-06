@@ -43,8 +43,7 @@
         <h1>Noctivagant</h1>
         <div class="sub"><p>noc &middot; tiv &middot; a &middot; gant, adj.: going about in the night, night-wandering</p></div>
 
-        <img style="width: 100%;" src="/images/misc/UnbreakableIncorruptableUnyieldingFire1.webp">
-        <center><p><i><a href="/shrine/doom#banners">What's this?</a></i></p></center>
+        <div id="twitch-embed"></div>
 
         <marquee><p>STRIATON CITY: sunny... NACRENE CITY: cloudy... CASTELIA CITY: cloudy... NIMBASA CITY: cloudy... DRIFTVEIL CITY: drizzling... MISTRALTON CITY: raining... ICCIRUS CITY: raining... OPELUCID CITY: cloudy...</p></marquee>
       
@@ -70,6 +69,18 @@
   
   <!-- Footer -->
   <div id="endFoot"></div>
+
+  <!-- Twitch Embed? -->
+  <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+  <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+  <script type="text/javascript">
+    new Twitch.Embed("twitch-embed", {
+      width: 854,
+      height: 480,
+      channel: "doomvega",
+    });
+  </script>
 
   <!-- This script handles hit count and last updated stuff. -->
   <script>
