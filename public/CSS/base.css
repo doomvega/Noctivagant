@@ -327,14 +327,11 @@ body {
 }
 
 .pkfronters--member-card {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+    margin: auto;
     max-width: 8em;
     color: var(--para-color);
     padding: 1rem;
     border-radius: var(--round-corner2);
-    border: var(--border);
 }
 
 .pkfronters--member-card--avatar {
@@ -344,6 +341,7 @@ body {
     height: 6rem;
     margin: 0 0 .5rem 0;
     border-radius: var(--round-corner2);
+    box-shadow: var(--shadow);
 }
 
 .pkfronters--member-card--name {
