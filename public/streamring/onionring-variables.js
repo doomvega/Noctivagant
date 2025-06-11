@@ -8,11 +8,12 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://noctivagant.net/',
-'https://dopcom.net/'
+'https://dopcom.net/',
+'https://brisken.neocities.org/'
 ];
 
 //the name of the ring
-var ringName = 'Euonym';
+var ringName = 'Euonymy';
 
 /* the unique ID of the widget. two things to note:
  1) make sure there are no spaces in it - use dashes or underscores if you must
