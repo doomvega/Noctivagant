@@ -312,7 +312,7 @@ body {
 }
 
 .pkfronters--member-card--pronouns {
-    text-align: left;
+    text-align: center;
 }
 
 .pkfronters--member-list--pronouns::before, .pkfronters--member-card--pronouns::before {
@@ -351,7 +351,8 @@ body {
 }
 
 .pkfronters--member-card--name {
-    text-align: left;
+    text-align: center;
+    line-height: 2.5;
 }
 
 /* Media query */
