@@ -333,6 +333,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    justify-content: space-evenly;
     width: 100%;
     color: var(--para-color);
     padding: 1rem;
