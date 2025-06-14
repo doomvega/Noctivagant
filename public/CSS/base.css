@@ -316,11 +316,11 @@ body {
 }
 
 .pkfronters--member-list--pronouns::before, .pkfronters--member-card--pronouns::before {
-    content: " ✨";
+    content: " ✨ ";
 }
 
 .pkfronters--member-list--pronouns::after, .pkfronters--member-card--pronouns::after {
-    content: "✨ ";
+    content: " ✨ ";
 }
 
 .pkfronters--member-card-container {
