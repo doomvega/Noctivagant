@@ -3,7 +3,6 @@ const leftSide = `
 <h2>Who's fronting?</h2>
 <p>This is how the div is supposed to look.</p>
 <div data-pkfronters-system="lqnxu" data-pkfronters-type="card"></div>
-<script src="https://irys.cc/fronters/pkfronters.js" async></script>
 <hr>
 <center><p id="blink" style="font-size: large;">🎨 HEY! ⭐</p></center>
 <p>If you like art made by human hands (or fox paws), check out my <a href="https://doomvega.art/">commissions website!</a> It means the world to me ❤️🦊</p>
