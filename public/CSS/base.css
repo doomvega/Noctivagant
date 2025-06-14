@@ -329,7 +329,7 @@ body {
 }
 
 .pkfronters--member-card {
-    max-width: 8em;
+    width: 100%;
     color: var(--para-color);
     padding: 1rem;
     border-radius: var(--round-corner2);
