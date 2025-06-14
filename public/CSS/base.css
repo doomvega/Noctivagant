@@ -310,6 +310,7 @@ body {
 .pkfronters--member-list--pronouns, .pkfronters--member-card--pronouns {
     word-break: break-word;
 }
+
 .pkfronters--member-card--pronouns {
     text-align: left;
 }
@@ -329,6 +330,9 @@ body {
 }
 
 .pkfronters--member-card {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
     width: 100%;
     color: var(--para-color);
     padding: 1rem;
