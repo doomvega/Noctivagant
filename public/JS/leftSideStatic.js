@@ -1,8 +1,7 @@
 const leftSide = ` 
-<p>I'm Vega! Welcome to my website! This is where I gather and talk about the things I love.</p>
-<h2>Status Cafe ✨🦊</h2>
+<h3>Status Cafe ✨🦊</h3>
 <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div>
-<h2>Who's fronting?</h2>
+<h3>Who's fronting?</h3>
 <div data-pkfronters-system="lqnxu" data-pkfronters-type="card"></div>
 <hr>
 <center><p id="blink" style="font-size: large;">🎨 HEY! ⭐</p></center>

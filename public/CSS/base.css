@@ -305,11 +305,13 @@ body {
     border: var(--border);
 }
 
+/* PK Fronter status. This is very cool. Thanks to Irys @ https://irys.cc/fronters/embed/ */
+
 .pkfronters--member-list--pronouns, .pkfronters--member-card--pronouns {
     word-break: break-word;
 }
 .pkfronters--member-card--pronouns {
-    text-align: center;
+    text-align: left;
 }
 
 .pkfronters--member-list--pronouns::before, .pkfronters--member-card--pronouns::before {
@@ -327,7 +329,6 @@ body {
 }
 
 .pkfronters--member-card {
-    margin: auto;
     max-width: 8em;
     color: var(--para-color);
     padding: 1rem;
@@ -339,14 +340,16 @@ body {
     width: 6rem;
     min-height: 6rem;
     height: 6rem;
-    margin: 0 0 .5rem 0;
+    margin: auto;
     border-radius: var(--round-corner2);
     box-shadow: var(--shadow);
 }
 
 .pkfronters--member-card--name {
-    text-align: center;
+    text-align: left;
 }
+
+/* Media query */
 
   @media only screen and (max-width: 999px) {
     
