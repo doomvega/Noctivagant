@@ -8,6 +8,7 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://noctivagant.net/',
+'https://riverfox.dev/'
 ];
 
 //the name of the ring
