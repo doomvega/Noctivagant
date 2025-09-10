@@ -29,3 +29,7 @@ if(month < 3 || month == 12) {
 if(month == 11 && day == 10) {
   document.getElementById("style").href = "/CSS/holiday/doom.css";
 }
+
+if(month == 3 && day == 1) {
+   document.getElementById("style").href = "/CSS/april.css";
+ }
