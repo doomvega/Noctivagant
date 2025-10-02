@@ -41,6 +41,7 @@ let postsArray = [
 //[ "posts/2020-11-10-My-Third-Post-Example.html", "" ],
 //[ "posts/2020-11-10-My-Second-Post-Example.html", "" ],
 //[ "posts/2020-11-10-Post-Template.html", "", "exampleTag1", "exampleTag2" ],
+[ "posts/2025-10-02-We-Did-It.html", "", "vega", ],
 [ "posts/2025-07-01-If-I-Die.html", "", "vega", "poetry" ],
 [ "posts/2025-03-25-Trans-Hope.html", "", "vega", "trans" ],
 [ "posts/2025-02-09-More-Than-a-Game-Balatro.html", encodeURI("More Than a Game— Balatro"), "", "vega", "mtag", "balatro", "archive" ],
