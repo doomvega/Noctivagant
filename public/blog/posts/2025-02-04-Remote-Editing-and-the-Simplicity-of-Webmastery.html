@@ -1,57 +1,33 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Blog Post</title>
-    <link rel="icon" href="../../images/favicon/favicon-48x48.png" type="image/x-icon"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8"> 
-    <link href="../../CSS/blogBase.css" rel="stylesheet" type="text/css" media="all">
-    <link href="../../CSS/spring/topper.css" rel="stylesheet" type="text/css" media="all" id="style"> 
-    <script type="text/javascript" src="../../JS/stylehandle.js"></script>
-  </head>
-
-  <body>
-    <div id="container">
-    <div id="header">...</div>
-    <div id="content">
-      <h1 id="postTitleH1"></h1>
-      <h4 id="postDate"></h4>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Blog Post</title>
+        <link rel="stylesheet" href="/css/toppers/springTopper.css">
+        <link rel="stylesheet" id="style">
+        <link rel="stylesheet" href="/css/blogBase.css">
+        <script type="text/javascript" src="/js/styleHandle.js"></script>
+    </head>
+    
+    <body>
+        <div id="container">
+        <div id="header">...</div>
+        <div id="content">
+            <h1 id="postTitleH1"></h1>
+            <h4 id="postDate"></h4>
       
-      <p><p>Recently, I've expanded my efforts to move away from social media. This should not surprise anyone; pretty much my entire deal since figuring out webmastery was taking back the web from corporate hands. I've done some really neat things lately, mostly in the realm of making my websites easier to work on. (Some of it was a pain in the ass, but it was worth it.)</p>
-
-      <p>Noctivagant's blog operates like this:</p>
-      <ol>
-        <li>I write posts by hand, directly into HTML.</li>
-        <li>I manually update an RSS feed.</li>
-      </ol>
-
-      <p>It's incredibly easy, allows for me to write whatever I want, and feels home-made. I love doing it.</p>
-
-      <p>Doing this directly into the Neocities editor is fine, but it feels a little janky to me. I should be able to connect to my website's code <i>remotely</i> and edit from any computer available to me, without needing to manually update a GitHub repo every time I do so. Also, I'm really tired of needing my tower to do anything with my website. Most of what I've built for Noctivagant, I've built on my tower. No big deal, but when you're always in pain and always exhausted, it's <i>so</i> much easier to just flip open a laptop and get coding.</p>
-
-      <p>Luckily, there are ways to do this.</p>
-
-      <p>You can hook up <a href="https://www.techielass.com/how-to-push-code-from-vs-code-to-github/">VSCode to GitHub.</a> This system works best if you don't have an existing GitHub repository for your project. (I had to remake a ton of repos for all of the sites I maintain.) If you <i>do</i> have an existing repo, you can connect to it using VSCode's "connect to..." function. Just paste the URL of your repo and it should pull the code for you to tinker with. You can then save this as a workspace so you can open and alter whenever.</p>
-
-      <p>Pushing updates <a href="https://petrapixel.neocities.org/blog/neocities-automatic-deployment">from GitHub to Neocities</a> is a little bit more technical (and certainly annoying if you have a ton of sites like I do), but it takes only a few minutes and some testing to make sure your updates are getting pushed correctly. You <i>should</i> be able to add this system to an existing repo, but I've found that it's easier to just make a new repo, just like with the system above.</p>
-
-      <p>This means that updating my blog and RSS feed are simultaneous rather than one after the other, like is usual in the Neocities code editor. I've found this system to be smooth, rewarding, and relatively easy to implement, and it makes the process of tending to my sites much simpler. It's actually made me reconsider some of my blogging spots. I love BearBlog, but doing this is cool too. I'm not sure what to do here if the goal is trimming down my social media! And don't even get me started on Zonelets. I've been considering making a Zonelets blog, but then what would I do with this one? Would I just archive and replace it? Zonelets is so fun to work with remotely...</p>
-
-      <p>All of this is to say making websites is awesome, and if you can get a system going that makes working on your sites a little easier despite the horrors, you should do it. I'm not even joking when I say that working on my sites like this has made me vastly reconsider my social media usage in its entirety. (This is partly because of my experiences on Cohost— I found very quickly that detaching myself from numbers and metrics made me feel a lot better about the Internet at large.)</p>
-
-      <p>I wonder if I could make my BlueSky and Mastodon accounts totally automated? We'll see.</p>
-      
-    <hr>
-    <center><div id="postTags"></div></center>
-    <div id="nextprev"></div>
-    </div>
-    <div id="footer"></div>
-    </div>
+            <p>Ready to write? Replace this text with your first paragraph!</p>
+            
+            <div id="nextprev"></div>
+        </div>
+            <div id="footer"></div>
+        </div>
   
-    <script src="../../JS/blogScript.js"></script>
+    <script src="../../js/blogScript"></script>
 
-    <!-- This script is the Ko-Fi button. This needs to be at the bottom of the page for whatever reason. -->
+    <!-- This script is the Ko-Fi button. -->
     <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-    <script src="../../JS/kofibutton.js"></script>
+    <script src="../../js/kofiButton.js"></script>
   </body>
 </html>
+

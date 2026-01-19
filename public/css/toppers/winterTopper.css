@@ -1,0 +1,65 @@
+:root {
+    /* Images */
+    --backTile: url("/img/winter/blizzard.webp");
+    --bannerImg: url("/img/winter/ribbonsxmas.webp");
+    --backImgSize: 500px;
+    --bannerImgSize: 500px;
+    
+    /* Color palette */
+    --color1: #303da5;
+    --color1Trans: #3d63bd50;
+    --color2: #508adb;
+    --color3: #5bace6;
+    --color4: #ffecce;
+    --color5: #32529f;
+    
+    /* Div styling */
+    --divShadow: 2px 2px 4px var(--color1Trans);
+    --padding: 5px;
+    --margin: 5px;
+    --round: 5px;
+    --roundTop: 5px 5px 0px 0px;
+    --borderDot: 3px dotted var(--color1);
+    --borderSolid: 3px solid var(--color5);
+    
+    /* Text styling */
+    --font1: TruthAndIdeals;
+    --textShadow: 2px 2px 4px var(--color1Trans);
+    --bulletEmoji: "❄ ";
+    --headerDec1: "";
+    --headerDec2: " ⋆˚࿔";
+    --linkEmoji1: "❄️ ";
+    --linkEmoji2: " ❄️";
+    --linkEmoji3: "✨ ";
+    --linkEmoji4: " ✨";
+}
+
+@font-face {
+  font-family: TruthAndIdeals;
+  src: url("/fonts/TruthAndIdealsNormal.woff2");
+  font-display: swap;
+}
+
+@media(prefers-color-scheme: dark) {
+    :root {
+        /* Images */
+        --backTile: url("/img/winter/blizzard.webp");
+        --bannerImg: url("/img/winter/ribbonsxmas.webp");
+        --backImgSize: 500px;
+        --bannerImgSize: 500px;
+    
+        /* Color palette */
+        --color1: #a9ecfa;
+        --color1Trans: #3d63bd50;
+        --color2: #262a4a;
+        --color3: #405992;
+        --color4: #efbf7d;
+        --color5: #d5f5fc;
+    }
+}
+
+/* This is the cursor. */
+
+/* Start https://www.cursors-4u.com */
+* {cursor: url(https://cur.cursors-4u.net/nature/nat-4/nat394.cur), auto !important;}
+/* End https://www.cursors-4u.com */

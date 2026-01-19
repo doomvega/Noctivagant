@@ -1,66 +1,39 @@
 <!DOCTYPE html>
-
-<html>
-
-<head>
-
-<title>Noctivagant</title>
-
-<!-- Site stylesheet is handled by /scripts/stylehandle. DO NOT FUCK WITH THIS -->
-<!-- BASE STYLE TO BE SET FIRST. -->
-
-<link rel="stylesheet" href="/CSS/spring/topper.css">
-<link rel="stylesheet" id="style">
-<link rel="stylesheet" href="/CSS/base.css">
-<script type="text/javascript" src="/JS/stylehandle.js"></script>
-
-<link rel="icon" type="image/png" href="/images/favicon/favicon-48x48.png" sizes="48x48"/>
-<link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg"/>
-<link rel="shortcut icon" href="/images/favicon/favicon.ico"/>
-<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png"/>
-<meta name="apple-mobile-web-app-title" content="Noctivagant"/>
-<link rel="manifest" href="/images/favicon/site.webmanifest"/>
-
-<meta charset="UTF-8">
-<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-</head>
-
-<body>
-
-  <!-- Top elements of the page -->
-  <div class="banner"></div>
-  <div id="headNav"></div>
-
-  <!-- Left sidebar and main elements of the page -->
-  <div class="container">
-
-      <div id="leftSide"></div>
-
-      <div class="main">
-        <h1>Oops! 404: Not Found</h1>
-        <div class="sub"><p>The page you are looking for does not exist at this extension. <a href="https://noctivagant.neocities.org/">Click here to go home.</a></p></div>
-      </div>
-
-  </div>
-  
-  <!-- Footer -->
-  <div id="endFoot"></div>
-
-  <!-- This script is the Ko-Fi button. This needs to be at the bottom of the page for whatever reason. -->
-  <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-  <script src="/JS/kofibutton.js"></script>
-
-  <!-- These scripts are "static" elements of the page, as well as external scripts that static elements rely on. -->
-  <script type="text/javascript" src="/JS/headNavStatic.js"></script>
-  <script type="text/javascript" src="/JS/leftSideStatic.js"></script>
-  <script type="text/javascript" src="/JS/endFootStatic.js"></script>
-  <script src="https://irys.cc/fronters/pkfronters.js" async></script>
-  <script src="https://status.cafe/current-status.js?name=doomvega" defer></script>
-  <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
-
-</body>
-
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Noctivagant</title>
+        <link rel="stylesheet" href="/css/toppers/springTopper.css">
+        <link rel="stylesheet" id="style">
+        <link rel="stylesheet" href="/css/base.css">
+        <script type="text/javascript" src="/js/styleHandle.js"></script>
+    </head>
+    
+    <body>
+        <div class="banner"></div>
+        <div id="navHeader"></div>
+        <main>
+            <div id="leftBar"></div>
+            <div class="content">
+                <h1>Oops! 404: Not Found</h1>
+                <p><a href="index.html">Go home?</a></p>
+            </div>
+        </main>
+        <div id="endFooter"></div>
+        
+        <!-- Who's Fronting? widget -->
+        <script src="https://irys.cc/fronters/pkfronters.js" async></script>
+        
+        <!-- Status Café widget -->
+        <script src="https://status.cafe/current-status.js?name=doomvega" defer></script>
+        
+        <!-- Static elements -->
+        <script src="/js/headerStatic.js"></script>
+        <script src="/js/footerStatic.js"></script>
+        <script src="/js/sidebarStatic.js"></script>
+        
+        <!-- This is the Ko-Fi button script. -->
+        <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+        <script src="/js/kofiButton.js"></script>
+    </body>
 </html>

@@ -1,0 +1,65 @@
+:root {
+    /* Images */
+    --backTile: url("/img/autumn/autumnleaves.webp");
+    --bannerImg: url("/img/autumn/foxIntro.webp");
+    --backImgSize: 500px;
+    --bannerImgSize: 500px;
+    
+    /* Color palette */
+    --color1: #311d07;
+    --color1Trans: #20170d50;
+    --color2: #835525;
+    --color3: #de8c3a;
+    --color4: #f2bf87;
+    --color5: #423426;
+    
+    /* Div styling */
+    --divShadow: 2px 2px 4px var(--color1Trans);
+    --padding: 5px;
+    --margin: 5px;
+    --round: 5px;
+    --roundTop: 5px 5px 0px 0px;
+    --borderDot: 3px dotted var(--color1);
+    --borderSolid: 3px solid var(--color5);
+    
+    /* Text styling */
+    --font1: TruthAndIdeals;
+    --textShadow: 2px 2px 4px var(--color1Trans);
+    --bulletEmoji: "✧ ";
+    --headerDec1: "";
+    --headerDec2: " ༄.°";
+    --linkEmoji1: "🍁 ";
+    --linkEmoji2: " 🍁";
+    --linkEmoji3: "🍂 ";
+    --linkEmoji4: " 🍂";
+}
+
+@font-face {
+  font-family: TruthAndIdeals;
+  src: url("/fonts/TruthAndIdealsNormal.woff2");
+  font-display: swap;
+}
+
+@media(prefers-color-scheme: dark) {
+    :root {
+        /* Images */
+        --backTile: url("/img/autumn/autumnleaves.webp");
+        --bannerImg: url("/img/autumn/foxIntro.webp");
+        --backImgSize: 500px;
+        --bannerImgSize: 500px;
+    
+        /* Color palette */
+        --color1: #1a1611;
+        --color1Trans: #20170d50;
+        --color2: #30261c;
+        --color3: #4e4439;
+        --color4: #f2bf87;
+        --color5: #de8c3a;
+    }
+}
+
+/* This is the cursor. */
+
+/* Start https://www.cursors-4u.com */
+* {cursor: url(https://cur.cursors-4u.net/holidays/hol-1/hol11.cur), auto !important;}
+/* End https://www.cursors-4u.com */

@@ -1,0 +1,328 @@
+/* This section is all text styling. */
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color1);
+    border-bottom: dotted 3px var(--color1);
+}
+
+h1 {
+    text-align: center;
+}
+
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+    content: var(--headerDec1);
+}
+
+h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
+    content: var(--headerDec2); ;
+}
+
+a {
+    color: var(--color4);
+}
+
+a:hover {
+    filter: brightness(125%);
+}
+
+a.navButton {
+    text-decoration: none;
+}
+
+a.navButton:nth-child(even):hover::before {
+    content: var(--linkEmoji1);
+}
+
+a.navButton:nth-child(even):hover::after {
+    content: var(--linkEmoji2);
+}
+
+a.navButton:nth-child(odd):hover::before {
+    content: var(--linkEmoji3);
+}
+
+a.navButton:nth-child(odd):hover::after {
+    content: var(--linkEmoji4);
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: var(--bulletEmoji);
+    padding-right: 8px;
+}
+
+/* This section contains the body and divs. */
+
+/* StatusCafe! It goes in the left bar. */
+
+#statuscafe {
+    border: var(--borderDot);
+    background-color: var(--color3);
+    width: 90;
+    max-height: 225px;
+    overflow-y: auto;
+    margin: auto;
+    padding: 10px;
+    flex-grow: 2;
+    border-radius: var(--round);
+    font-size: smaller;
+}
+
+#statuscafe-username {
+    margin-bottom: .5em;
+    color: var(--color4);
+}
+
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+    color: var(--color5);
+}
+
+/* Tables taken from Home Wiki. LMAO */
+  
+
+table {
+    border: var(--borderSolid);
+    padding: 10px;
+    background-color: var(--color3);
+    width: 300px;
+    margin: 10px;
+    float: right;
+    box-shadow: var(--textShadow);
+    border-collapse: collapse;
+    border-radius: var(--round);  
+}
+  
+td, th {
+    padding: 10px;
+    color: var(--color5);
+}
+  
+tr:nth-child(even) {
+    background-color: var(--color2);
+}
+
+table img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    background-color: var(--color1);
+    background-image: var(--backTile);
+    background-size: var(--backImgSize);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    color: var(--color5);
+    font-family: var(--font1);
+    text-shadow: var(--textShadow);
+}
+
+.banner {
+    background-image: var(--bannerImg);
+    background-size: var(--bannerImgSize);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    margin: var(--margin);
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(5px 5px var(--color1Trans))
+}
+
+#navHeader {
+    background-color: var(--color2);
+    padding: var(--padding);
+    margin: var(--margin);
+    border-radius: var(--round);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(2 * 75px), 1fr));
+    justify-content: space-between;
+    box-shadow: var(--divShadow);
+}
+
+main {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+}
+
+#leftBar {
+    background-color: var(--color2);
+    width: 25%;
+    padding: var(--padding);
+    margin: var(--margin);
+    border-radius: var(--round);
+    overflow-y: scroll;
+    box-shadow: var(--divShadow);
+}
+
+.content {
+    background-color: var(--color3);
+    width: 75%;
+    padding: var(--padding);
+    margin: var(--margin);
+    border-radius: var(--round);
+    overflow-y: scroll;
+    box-shadow: var(--divShadow);
+}
+
+#endFooter {
+    background-color: var(--color2);
+    padding: var(--padding);
+    margin: var(--margin);
+    border-radius: var(--round);
+    text-align: center;
+}
+
+.navButton {
+    background-color: var(--color3);
+    padding: var(--padding);
+    margin: var(--margin);
+    border-radius: var(--round);
+    text-align: center;
+    box-shadow: var(--divShadow);
+    display: block;
+}
+
+.navButton:hover {
+    filter: brightness(125%);
+}
+
+.navButton:nth-child(even):hover {
+    rotate: 1deg;
+}
+
+.navButton:nth-child(odd):hover {
+    rotate: -1deg;
+}
+
+/* Extra div */
+.extraContent {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    background-color: var(--color2);
+    border-radius: var(--round);
+    box-shadow: var(--divShadow);
+    border: var(--borderDot);
+}
+
+/* This div specifically is for containing 88x31s. */
+.gridContain {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(1 * 88px), 1fr));
+    justify-content: space-between;
+    box-shadow: var(--divShadow);
+}
+
+.gridContain a:nth-child(even):hover {
+    rotate: 5deg;
+}
+
+.gridContain a:nth-child(odd):hover {
+    rotate: -5deg;
+}
+
+/* PK Fronter status. This is very cool. Thanks to Irys @ https://irys.cc/fronters/embed/ */
+
+.pkfronters--member-list--pronouns, .pkfronters--member-card--pronouns {
+    word-break: break-word;
+}
+
+.pkfronters--member-card--pronouns {
+    text-align: center;
+}
+
+.pkfronters--member-list--pronouns::before, .pkfronters--member-card--pronouns::before {
+    content: "✨ ";
+}
+
+.pkfronters--member-list--pronouns::after, .pkfronters--member-card--pronouns::after {
+    content: " ✨";
+}
+
+.pkfronters--member-card-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+}
+
+.pkfronters--member-card {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    color: var(--para-color);
+    padding: 1rem;
+    border-radius: var(--round);
+}
+
+.pkfronters--member-card--avatar {
+    min-width: 6rem;
+    width: 6rem;
+    min-height: 6rem;
+    height: 6rem;
+    margin: auto;
+    border-radius: var(--round);
+    box-shadow: var(--shadow);
+}
+
+.pkfronters--member-card--name {
+    text-align: center;
+    line-height: 2.5;
+}
+
+@media only screen and (max-width: 999px) {
+    
+    [id^="kofi-widget-overlay"] {
+      display: none;
+    }
+    
+    table {
+        width: auto;
+    }
+    
+    body {
+        width: 95%;
+    }
+    
+    main {
+        height: auto;
+    }
+    
+    .banner {
+        background-size: 300px;
+        height: 200px;
+    }
+      
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    #leftBar {
+        width: auto;
+        overflow-y: scroll;
+        height: 250px;
+    }
+    
+    .content {
+        width: auto;
+        overflow-y: scroll;
+        height: auto;
+    }
+}

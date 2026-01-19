@@ -1,0 +1,220 @@
+body {
+    background-color: var(--color1);
+    background-image: var(--backTile);
+    background-size: var(--backImgSize);
+    background-position: auto;
+    font-size: 18px;
+    font-family: var(--font1);
+    margin: 0;
+    text-shadow: var(--textShadow);
+}
+
+.specialFlair:before {
+    content: var(--dateFlair);
+}
+
+p {
+    line-height: auto;
+}
+
+hr {
+    border: none;
+    border-bottom: var(--hrStyle);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.right {
+    float: right;
+    margin-left: 1em;
+}
+
+.left {
+    float: left;
+    margin-right: 1em;
+}
+
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .small {
+        max-width: 60%;
+        height: auto;
+    }
+}
+
+@media not screen and (min-width: 600px){
+    [id^="kofi-widget-overlay"] {
+        display: none;
+    }
+}
+
+.caption {
+    margin-top: 0;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font1);
+    color: var(--color1);
+}
+
+h1 {
+    color: var(--color1);
+    border-bottom: double 3px var(--color1);
+    text-align: center;
+}
+
+h2 {
+    border-bottom: dashed 1px var(--color1);
+}
+
+h3 {
+    border-bottom: dotted 1px var(--color1);
+}
+
+a {
+    color: var(--color4);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a.navButton {
+    text-decoration: none;
+}
+
+a.navButton:nth-child(even):hover::before {
+    content: var(--linkEmoji1);
+}
+
+a.navButton:nth-child(even):hover::after {
+    content: var(--linkEmoji2);
+}
+
+a.navButton:nth-child(odd):hover::before {
+    content: var(--linkEmoji3);
+}
+
+a.navButton:nth-child(odd):hover::after {
+    content: var(--linkEmoji4);
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: var(--bulletEmoji);
+    padding-right: 8px;
+}
+
+/*#CONTAINER is the rectangle that contains everything but the background!*/
+#container {
+    margin: 3em auto;
+    width: 90%;
+	max-width: 700px;
+	background-color: var(--color3);
+    color: var(--color5);
+    box-shadow: var(--divShadow);
+    border-radius: var(--round);
+}
+
+#content {
+    padding: 10px 5% 20px 5%;
+}
+
+/*HEADER STYLE*/
+#header {
+    background-color: var(--color2);
+    padding: 0 5%;
+    border-radius: var(--roundTop);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(2 * 75px), 1fr));
+    justify-content: space-between;
+}
+
+#header p {
+    font-size: 1.2em;
+    display: inline-block;
+    margin-right: 1.5em;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+    margin-inline: auto;
+}
+
+#header p::before {
+    content: var(--dateFlair);
+}
+
+#header p::after {
+    content: var(--dateFlair);
+}
+
+#header a {
+    color: var(--color4);
+    font-weight: bold;
+    display: block;
+}
+
+/*POST LIST STYLE*/
+#postlistdiv ul {
+    font-size: 1.2em;
+    padding: 0;
+    list-style-type: none;
+}
+
+#recentpostlistdiv ul {
+    font-size: 1.2em;
+    padding: 0;
+    list-style-type: none;
+}
+
+.moreposts {
+    font-size: 0.8em;
+    margin-top: 0.2em;
+}
+
+/*NEXT AND PREVIOUS LINKS STYLE*/
+#nextprev {
+    text-align: center;
+    margin-top: 1.4em;
+}
+
+/*FOOTER STYLE*/
+#footer {
+    font-size: 0.8em;
+    padding: 0 5% 10px 5%;
+}
+
+.navButton {
+    background-color: var(--color3);
+    padding: var(--padding);
+    margin: var(--margin);
+    border-radius: var(--round);
+    text-align: center;
+    box-shadow: var(--divShadow);
+    display: block;
+}
+
+.navButton:hover {
+    filter: brightness(125%);
+}
+
+.navButton:nth-child(even):hover {
+    rotate: 1deg;
+}
+
+.navButton:nth-child(odd):hover {
+    rotate: -1deg;
+}

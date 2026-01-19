@@ -1,0 +1,33 @@
+:root {
+    /* Images */
+    --backTile: url("img/goodStars4.png");
+    --bannerImg: pass;
+    
+    /* Color palette */
+    --color1: #082865;
+    --color1Trans: #08286550;
+    --color2: #3f86ba;
+    --color3: #caf5e8;
+    --color4: #d1b47b;
+    --color5: #ce8919;
+    
+    /* Div styling */
+    --divShadow: 2px 2px 4px var(--color1Trans);
+    --padding: 5px;
+    --margin: 5px;
+    --round: 5px;
+    --roundTop: var(--round), var(--round), 0px, 0px;
+    
+    /* Text styling */
+    --font1: TruthAndIdeals;
+    --textShadow: 2px 2px 4px var(--color1Trans);
+    --bulletEmoji: "✩ ";
+    --headerDec1: "";
+    --headerDec2: "";
+}
+
+@font-face {
+  font-family: TruthAndIdeals;
+  src: url("/fonts/TruthAndIdealsNormal.woff2");
+  font-display: swap;
+}

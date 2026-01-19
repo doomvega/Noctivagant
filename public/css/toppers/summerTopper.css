@@ -1,0 +1,65 @@
+:root {
+    /* Images */
+    --backTile: url("/img/summer/ivyback.webp");
+    --bannerImg: url("/img/spring/spring2024.webp");
+    --backImgSize: 500px;
+    --bannerImgSize: 500px;
+    
+    /* Color palette */
+    --color1: #173d1e;
+    --color1Trans: #173d1e50;
+    --color2: #426d40;
+    --color3: #72a770;
+    --color4: #bfdfbd;
+    --color5: #173d1e;
+    
+    /* Div styling */
+    --divShadow: 2px 2px 4px var(--color1Trans);
+    --padding: 5px;
+    --margin: 5px;
+    --round: 5px;
+    --roundTop: 5px 5px 0px 0px;
+    --borderDot: 3px dotted var(--color1);
+    --borderSolid: 3px solid var(--color5);
+    
+    /* Text styling */
+    --font1: TruthAndIdeals;
+    --textShadow: 2px 2px 4px var(--color1Trans);
+    --bulletEmoji: "❧ ";
+    --headerDec1: "";
+    --headerDec2: " ˖᯽ ݁˖";
+    --linkEmoji1: "🌿 ";
+    --linkEmoji2: " 🌿";
+    --linkEmoji3: "🌾 ";
+    --linkEmoji4: " 🌾";
+}
+
+@font-face {
+  font-family: TruthAndIdeals;
+  src: url("/fonts/TruthAndIdealsNormal.woff2");
+  font-display: swap;
+}
+
+@media(prefers-color-scheme: dark) {
+    :root {
+        /* Images */
+        --backTile: url("/img/summer/ivyback.webp");
+        --bannerImg: url("/img/spring/spring2024.webp");
+        --backImgSize: 500px;
+        --bannerImgSize: 500px;
+    
+        /* Color palette */
+        --color1: #bfdfbd;
+        --color1Trans: #29513050;
+        --color2: #295130;
+        --color3: #426d40;
+        --color4: #bfdfbd;
+        --color5: #bfdfbd;
+    }
+}
+
+/* This is the cursor. */
+
+/* Start https://www.cursors-4u.com */
+* {cursor: url(https://cur.cursors-4u.net/nature/nat-4/nat345.cur), auto !important;}
+/* End https://www.cursors-4u.com */
