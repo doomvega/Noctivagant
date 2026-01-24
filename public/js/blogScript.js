@@ -16,7 +16,7 @@
 
 let blogName = "DOOMVEGA's Poasts";
 let authorName = "DOOMVEGA";
-let authorLink = "doomvega@noctivagant.net"; // Enter your website, social media, etc. Some way for people to tell you they like your blog! (Leaving it empty is okay too)
+let authorLink = "mailto:doomvega@noctivagant.net"; // Enter your website, social media, etc. Some way for people to tell you they like your blog! (Leaving it empty is okay too)
 
 //-----------------------------
 
