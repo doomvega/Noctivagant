@@ -34,15 +34,15 @@ let postsArray = [
 //[ "posts/2020-11-10-Special-Characters-Example.html", encodeURI( 'Spéci@l "Character\'s" Examp|e' ) ],
 //[ "posts/2020-11-10-My-Third-Post-Example.html" ],
 //[ "posts/2020-11-10-My-Second-Post-Example.html" ],
-[ "posts/2026-01-01-Instantiate-Change.html", "" ],
-[ "posts/2025-10-02-We-Did-It.html", "" ],
-[ "posts/2025-07-01-If-I-Die.html", "" ],
-[ "posts/2025-03-25-Trans-Hope.html", "" ],
-[ "posts/2025-02-09-More-Than-a-Game-Balatro.html", encodeURI("More Than a Game— Balatro"), "" ],
-[ "posts/2025-02-04-Remote-Editing-and-the-Simplicity-of-Webmastery.html", "" ],
-[ "posts/2025-01-18-Pruning-and-Changing.html", "" ],
-[ "posts/2024-10-16-A-Long-Day-of-Webdev.html", "" ],
-[ "posts/2024-09-28-Post-Bread.html", "" ]
+[ "posts/2026-01-01-Instantiate-Change.html" ],
+[ "posts/2025-10-02-We-Did-It.html" ],
+[ "posts/2025-07-01-If-I-Die.html" ],
+[ "posts/2025-03-25-Trans-Hope.html" ],
+[ "posts/2025-02-09-More-Than-a-Game-Balatro.html", encodeURI("More Than a Game— Balatro")],
+[ "posts/2025-02-04-Remote-Editing-and-the-Simplicity-of-Webmastery.html" ],
+[ "posts/2025-01-18-Pruning-and-Changing.html" ],
+[ "posts/2024-10-16-A-Long-Day-of-Webdev.html" ],
+[ "posts/2024-09-28-Post-Bread.html" ]
 ];
 
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
